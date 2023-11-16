@@ -109,8 +109,8 @@ class XRayConfig(dict):
 
 class XRayCore:
     def __init__(self,
-                 executable_path: str = "/usr/bin/xray",
-                 assets_path: str = "/usr/share/xray"):
+                 executable_path: str = "/usr/bin/xray2",
+                 assets_path: str = "/usr/share/xray2"):
         self.executable_path = executable_path
         self.assets_path = assets_path
 
